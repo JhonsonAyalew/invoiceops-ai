@@ -1,0 +1,9 @@
+$ npm.cmd run typecheck
+$ cwd: frontend
+
+
+> invoiceops-frontend@1.0.0 typecheck
+> tsc -b --noEmit
+
+
+[exit code: 0]

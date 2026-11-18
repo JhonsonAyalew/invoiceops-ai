@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-11-17T22:47:30.087219+00:00",
+  "job": {
+    "id": "ce1b215b483244f3823d4d6760d53b9a",
+    "name": "InvoiceOps proof batch - 10 supplier PDFs",
+    "reference": "PROOF-2026-001"
+  },
+  "upload": {
+    "submitted": 10,
+    "accepted": 10
+  },
+  "processing": {
+    "queued": 10,
+    "counts": {
+      "queued": 0,
+      "processed": 3,
+      "reviewed": 1,
+      "processing": 0,
+      "needs_review": 6,
+      "failed": 0,
+      "duplicate": 0,
+      "total": 10
+    },
+    "overview": {
+      "queued": 0,
+      "processed": 3,
+      "reviewed": 1,
+      "processing": 0,
+      "needs_review": 6,
+      "failed": 0,
+      "duplicate": 0
+    }
+  },
+  "extracted_invoices": [
+    {
+      "file": "invoice-ch-novelbro-handels-0042368.pdf",
+      "status": "processed",
+      "method": "native",
+      "supplier": "Novelbro Handels GmbH",
+      "number": "0042368",
+      "currency": "CHF",
+      "total": "32707.88",
+      "issues": 0
+    },
+    {
+      "file": "invoice-ch-tenquifan-technik-RE-84082.pdf",
+      "status": "processed",
+      "method": "native",
+      "supplier": "Tenquifan Technik GmbH",
+      "number": "RE-84082",
+      "currency": "CHF",
+      "total": "86313.16",
+      "issues": 0
+    },
+    {
+      "file": "invoice-de-dortorzel-technik-INV-2026-12730.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "Traarstrasse 186",
+      "number": "INV-2026-12730",
+      "currency": "EUR",
+      "total": "100.00",
+      "issues": 1
+    },
+    {
+      "file": "invoice-es-zelsol-servicios-F2025-10190-scanned.pdf",
+      "status": "needs_review",
+      "method": "ocr",
+      "supplier": "Zelsol Servicios S.A.",
+      "number": "F2025-10190",
+      "currency": "EUR",
+      "total": null,
+      "issues": 1
+    },
+    {
+      "file": "invoice-fr-tenvi-ateliers-2026-65937.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "Tenvi Ateliers SARL",
+      "number": "2026/65937",
+      "currency": "EUR",
+      "total": "30088.48",
+      "issues": 1
+    },
+    {
+      "file": "invoice-fr-torlumin-conseil-2026-3571.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "N° TVA: FR05 521371084                                                                                            Date: 09/04/2026",
+      "number": "2026/3571",
+      "currency": "EUR",
+      "total": "68896.78",
+      "issues": 1
+    },
+    {
+      "file": "invoice-uk-elvel-trading-RE-66678.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "Elvel Trading Ltd",
+      "number": "RE-66678",
+      "currency": "GBP",
+      "total": "1.00",
+      "issues": 1
+    },
+    {
+      "file": "invoice-us-marzel-systems-F2026-49858.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "Columbus 78619",
+      "number": "F2026-49858",
+      "currency": "USD",
+      "total": "1.00",
+      "issues": 1
+    },
+    {
+      "file": "invoice-us-torlu-trading-0082649.pdf",
+      "status": "needs_review",
+      "method": "native",
+      "supplier": "Torlu Trading LLC",
+      "number": "0082649",
+      "currency": "USD",
+      "total": "31827.95",
+      "issues": 3
+    },
+    {
+      "file": "invoice-us-velnov-consulting-2026-34850.pdf",
+      "status": "processed",
+      "method": "native",
+      "supplier": "Velnov Consulting Inc.",
+      "number": "2026/34850",
+      "currency": "USD",
+      "total": "20308.06",
+      "issues": 0
+    }
+  ],
+  "review": {
+    "invoice": "invoice-es-zelsol-servicios-F2025-10190-scanned.pdf",
+    "invoice_id": "5ef778f9396c41759ed762435c34defd",
+    "corrected_fields": [
+      "total_amount"
+    ],
+    "reviewed": true,
+    "original_total": null,
+    "final_total": "48603.38"
+  },
+  "deliverables": [
+    {
+      "kind": "xlsx",
+      "filename": "PROOF-2026-001_invoices_20261118.xlsx",
+      "size_bytes": 15710
+    },
+    {
+      "kind": "csv_invoices",
+      "filename": "PROOF-2026-001_invoices_20261118.csv",
+      "size_bytes": 2985
+    },
+    {
+      "kind": "csv_line_items",
+      "filename": "PROOF-2026-001_line_items_20261118.csv",
+      "size_bytes": 9018
+    },
+    {
+      "kind": "pdf_report",
+      "filename": "PROOF-2026-001_report_20261118.pdf",
+      "size_bytes": 7675
+    }
+  ]
+}

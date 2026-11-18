@@ -1,0 +1,11 @@
+$ npm.cmd run format:check
+$ cwd: frontend
+
+
+> invoiceops-frontend@1.0.0 format:check
+> prettier --check src
+
+Checking formatting...
+All matched files use Prettier code style!
+
+[exit code: 0]

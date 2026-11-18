@@ -1,0 +1,83 @@
+{
+  "verified_at": "2026-11-17T23:03:48.644134+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.10",
+  "node": "v24.18.0",
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "backend_tests",
+      "command": "python.exe -m pytest -q",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/backend_tests.txt"
+    },
+    {
+      "name": "backend_lint",
+      "command": "python.exe -m ruff check .",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/backend_lint.txt"
+    },
+    {
+      "name": "backend_format",
+      "command": "python.exe -m ruff format --check .",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/backend_format.txt"
+    },
+    {
+      "name": "frontend_typecheck",
+      "command": "npm.cmd run typecheck",
+      "cwd": "frontend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/frontend_typecheck.txt"
+    },
+    {
+      "name": "frontend_lint",
+      "command": "npm.cmd run lint",
+      "cwd": "frontend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/frontend_lint.txt"
+    },
+    {
+      "name": "frontend_format",
+      "command": "npm.cmd run format:check",
+      "cwd": "frontend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/frontend_format.txt"
+    },
+    {
+      "name": "frontend_build",
+      "command": "npm.cmd run build",
+      "cwd": "frontend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/frontend_build.txt"
+    },
+    {
+      "name": "migrations_upgrade",
+      "command": "python.exe -m alembic upgrade head",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/migrations_upgrade.txt"
+    },
+    {
+      "name": "migrations_check",
+      "command": "python.exe -m alembic check",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/migrations_check.txt"
+    },
+    {
+      "name": "migrations_downgrade",
+      "command": "python.exe -m alembic downgrade base",
+      "cwd": "backend",
+      "exit_code": 0,
+      "log": "docs/proof/logs/migrations_downgrade.txt"
+    }
+  ]
+}

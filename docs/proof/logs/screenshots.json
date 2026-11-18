@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-17T22:47:55.506954+00:00",
+  "viewport": "1440x900",
+  "files": [
+    {
+      "file": "01_overview.png",
+      "route": "/",
+      "bytes": 48723
+    },
+    {
+      "file": "02_jobs.png",
+      "route": "/jobs",
+      "bytes": 37873
+    },
+    {
+      "file": "03_new_job.png",
+      "route": "/jobs/new",
+      "bytes": 51798
+    },
+    {
+      "file": "04_results.png",
+      "route": "/jobs/ce1b215b483244f3823d4d6760d53b9a/results",
+      "bytes": 120654
+    },
+    {
+      "file": "05_review.png",
+      "route": "/jobs/ce1b215b483244f3823d4d6760d53b9a/review/5ef778f9396c41759ed762435c34defd",
+      "bytes": 141935
+    },
+    {
+      "file": "06_export_center.png",
+      "route": "/exports",
+      "bytes": 82025
+    },
+    {
+      "file": "07_settings_ocr.png",
+      "route": "/settings/ocr",
+      "bytes": 77436
+    },
+    {
+      "file": "08_job_exports.png",
+      "route": "/jobs/ce1b215b483244f3823d4d6760d53b9a/exports",
+      "bytes": 87986
+    },
+    {
+      "file": "09_excel_output.png",
+      "source": "docs/proof/outputs/invoices.xlsx",
+      "bytes": 232173
+    },
+    {
+      "file": "10_pdf_report.png",
+      "source": "docs/proof/outputs/processing_report.pdf",
+      "bytes": 106296
+    }
+  ]
+}

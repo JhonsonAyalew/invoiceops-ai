@@ -1,0 +1,9 @@
+$ npm.cmd run lint
+$ cwd: frontend
+
+
+> invoiceops-frontend@1.0.0 lint
+> eslint src
+
+
+[exit code: 0]

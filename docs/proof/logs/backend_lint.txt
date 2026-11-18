@@ -1,0 +1,6 @@
+$ python.exe -m ruff check .
+$ cwd: backend
+
+All checks passed!
+
+[exit code: 0]

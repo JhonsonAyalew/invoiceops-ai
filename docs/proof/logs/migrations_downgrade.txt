@@ -1,0 +1,8 @@
+$ python.exe -m alembic downgrade base
+$ cwd: backend
+
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running downgrade 0001 -> , initial schema
+
+[exit code: 0]
