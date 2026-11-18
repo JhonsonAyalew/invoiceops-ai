@@ -1,0 +1,11 @@
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.ico binary
+*.zip binary
+*.bat text eol=crlf
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
